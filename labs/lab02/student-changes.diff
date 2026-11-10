@@ -1,0 +1,13 @@
+diff --git a/02. 数据湖与质量契约/附件/student_quality_policy.py b/submissions/lab02/student_quality_policy_personal.py
+index 3811d92..0853202 100644
+--- a/02. 数据湖与质量契约/附件/student_quality_policy.py	
++++ b/submissions/lab02/student_quality_policy_personal.py
+@@ -9,7 +9,7 @@ sys.path.insert(0, str(COURSE_ROOT))
+ from coursekit.common import DATA, OUT, write_json
+ from coursekit.evidence import capture_callable
+ 
+-MAX_INPUT_TOKENS = 2000  # 本人将它改为 1200，先预测再运行。
++MAX_INPUT_TOKENS = 1200  # 改为 1200，先预测再运行。
+ 
+ 
+ def policy(row):

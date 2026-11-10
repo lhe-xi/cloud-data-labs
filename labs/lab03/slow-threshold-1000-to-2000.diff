@@ -1,0 +1,13 @@
+diff --git a/03. 分布式批处理与性能分析/附件/student_latency_aggregate.py b/submissions/lab03/student_latency_aggregate.py
+index 1ed754f..d132f45 100644
+--- a/03. 分布式批处理与性能分析/附件/student_latency_aggregate.py	
++++ b/submissions/lab03/student_latency_aggregate.py
+@@ -9,7 +9,7 @@ sys.path.insert(0, str(COURSE_ROOT))
+ from coursekit.common import DATA, OUT, write_json
+ from coursekit.evidence import capture_callable
+ 
+-SLOW_MS = 1000  # 本人改为 2000；运行前写下预测。
++SLOW_MS = 2000  # 本人改为 2000；运行前写下预测。
+ 
+ 
+ def main():
